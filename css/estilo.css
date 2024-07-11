@@ -39,13 +39,9 @@ a:link, a:visited {
 	color: #757ef3;
 }
 
-a:hover {
-	text-decoration: underline;
-}
 
 
-#home .home, #comunicados .comunicados, 
-#solicitacoes .solicitacoes, #contato .contato {
+#home .home, #comunicados .comunicados, #contato .contato {
 	background-color: #5e65b9;
 }
 
@@ -92,27 +88,24 @@ a:hover {
 }
 
 .caixa-conteudo #topicos li {
+	width: 500px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	border: 1px solid #CCC;
+	border: 2px solid #CCC;
 	border-radius: 10px;
 }
 
 .caixa-conteudo #topicos li a {
-	color: #5b6094;
+	color:#161616;
 }
 
 .caixa-conteudo #topicos li a:hover {
 	color: #a7afff;
 }
 
-/* .caixa-conteudo #topicos hr {
-	border: 1px solid #CCC;
-	padding: 5px 0 5px 0;
-} */
-
 #topicos li p {
-	padding: 20px 0 5px 0;
+	padding: 10px 10px 0 10px;
+	text-align: justify;
 }
 
 #topicos img {
@@ -138,6 +131,27 @@ a:hover {
 	text-align: justify;
 	padding-top: 20px;
 	padding: 20px 10px;
+}
+
+.postagem ul {
+	list-style: inside;
+	padding: 20px 10px;
+}
+
+.postagem ol {
+	padding-top: 20px;
+	padding-left: 22px;
+}
+
+.postagem #obs {
+	color: #ffffff;
+	background: rgba(255, 80, 80);
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.postagem a:hover {
+	color: #a7afff;
 }
 
 .foto {
