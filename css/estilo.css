@@ -182,14 +182,6 @@ a:link, a:visited {
 	padding-top: 10px;
 }
 
-#rodape {
-	clear: both;
-	text-align: center;
-	padding: 15px;
-	background: #CCC;
-}
-
-
 /* Formatações gerais */
 
 
@@ -217,7 +209,13 @@ h3 {
 	display: block;
 }
 
-
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	border-radius: 5px;
+}
 
 
 
