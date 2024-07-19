@@ -142,9 +142,14 @@ a:link, a:visited {
 }
 
 #titulo-contato { 
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	margin-top: 0;
+	/* text-align: center; */
 }
+
+/* #contato .postagem {
+	padding-top: 0;
+} */
 
 .postagem p {
 	text-align: justify;
