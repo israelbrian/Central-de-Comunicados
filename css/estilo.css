@@ -92,7 +92,9 @@ a:link, a:visited {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 	border: 2px solid #CCC;
-	border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #ffffff;
 }
 
 .caixa-conteudo #topicos li a {
@@ -104,8 +106,12 @@ a:link, a:visited {
 }
 
 #topicos li p {
-	padding: 10px 10px 0 10px;
+	padding: 15px;
+	margin-bottom: -10px;
+	margin-top: -4px;
+	padding-top: 20px;
 	text-align: justify;
+	border-top: 3px solid #f3f2f2;
 }
 
 #topicos img {
@@ -123,14 +129,34 @@ a:link, a:visited {
 
 .postagem{
 	padding: 20px;
-	margin-bottom: 20px;
 	background: white;	
+}
+
+.sub-titulo {
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
+.postagem h2, .postagem a{
+	margin-left: 5px;
+}
+
+#titulo-contato { 
+	margin-bottom: 15px;
+	margin-top: 0;
 }
 
 .postagem p {
 	text-align: justify;
-	padding-top: 20px;
-	padding: 20px 10px;
+	/* padding-top: 20px; */
+	padding: 10px;
+	/* border-bottom: 2px solid #CCC; */
+}
+
+.ultimo-item {
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	/* border: 1px solid red; */
 }
 
 .postagem ul {
@@ -141,6 +167,8 @@ a:link, a:visited {
 .postagem ol {
 	padding-top: 20px;
 	padding-left: 22px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #CCC;
 }
 
 .postagem #obs {
@@ -193,7 +221,9 @@ h3 {
 	color: #565656;
 	background: #CCC;
 	padding: 5px;
-	border-radius: 5px;
+	/* border: 2px solid #CCC; */
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 	line-height: 30px;
 }
 
@@ -214,7 +244,7 @@ h3 {
 	text-align: center;
 	padding: 15px;
 	background: #CCC;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 }
 
 
